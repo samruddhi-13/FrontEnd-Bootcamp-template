@@ -1,0 +1,15 @@
+body::before{
+    display: block;
+    content: '';
+    height: 60px;
+}
+.map{
+    padding-left: 0%;
+}
+
+/* Medium width-768px this is for 768px and above */
+@media(min-width: 768px){
+    .news-input{
+        width: 50%;
+    }
+}
